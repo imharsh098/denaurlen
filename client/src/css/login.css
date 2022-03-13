@@ -1,0 +1,308 @@
+.main {
+  position: relative;
+  width: 414px;
+  height: 896px;
+  background: #ffffff;
+}
+
+.right_side {
+  position: absolute;
+  width: 67px;
+  height: 11.34px;
+  left: 323px;
+  top: 19px;
+  display: flex;
+  justify-content: space-between;
+}
+.left_side {
+  position: absolute;
+  width: 28.43px;
+  height: 11.09px;
+  left: 24px;
+  top: 19px;
+}
+.back {
+  position: absolute;
+  width: 19px;
+  height: 15px;
+  left: 25px;
+  top: 75px;
+}
+.sign_in {
+  position: absolute;
+  width: 77px;
+  height: 30px;
+  left: 23px;
+  top: 113px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  display: flex;
+  align-items: flex-end;
+  text-transform: capitalize;
+
+  color: #4b0082;
+}
+
+.connect {
+  position: absolute;
+  width: 149px;
+  height: 23px;
+  left: 23px;
+  top: 148px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+
+  /* identical to box height */
+
+  color: #9d9d9d;
+}
+.inemail {
+  position: absolute;
+  width: 366px;
+  height: 50px;
+  left: 24px;
+  top: 247px;
+
+  border: 1px solid #4b0082;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.inemaill {
+  position: absolute;
+  width: 250px;
+  height: 18px;
+  left: 47px;
+  top: 16px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #343434;
+  background: none;
+  border: 0px;
+}
+.group_1 {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 38px;
+  top: 264px;
+
+  background: #4b0082;
+  border-radius: 2px;
+}
+.group_2 {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 38px;
+  top: 335px;
+
+  background: #4b0082;
+  border-radius: 2px;
+}
+.inpassword {
+  position: absolute;
+  width: 366px;
+  height: 50px;
+  left: 24px;
+  top: 319px;
+
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+.inpasswordd {
+  position: absolute;
+  width: 250px;
+  height: 18px;
+  left: 47px;
+  top: 16px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  border: 0px;
+  background: none;
+
+  color: #343434;
+}
+.inhide {
+  position: absolute;
+  left: 87.02%;
+  right: 9.67%;
+  top: 37.75%;
+  bottom: 61.07%;
+}
+.check_box {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 24px;
+  top: 393px;
+}
+.remember {
+  position: absolute;
+  width: 97px;
+  height: 18px;
+  left: 47px;
+  top: 393px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #343434;
+}
+.submit_signin {
+  position: absolute;
+  width: 366px;
+  height: 50px;
+  left: 24px;
+  top: 471px;
+
+  background: #4b0082;
+  border-radius: 5px;
+}
+.signIn {
+  position: absolute;
+  width: 44px;
+  height: 18px;
+  left: 166px;
+  top: 487px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 18px;
+  border: 0px;
+  background: none;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.line_1 {
+  position: absolute;
+  width: 159px;
+  height: 1px;
+  left: 24px;
+  top: 582px;
+
+  background: #9d9d9d;
+}
+.or {
+  position: absolute;
+  width: 27px;
+  height: 17px;
+  left: 193px;
+  top: 573px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #343434;
+}
+.line_2 {
+  position: absolute;
+  width: 165px;
+  height: 1px;
+  left: 225px;
+  top: 582px;
+
+  background: #9d9d9d;
+}
+.google {
+  position: absolute;
+  width: 366px;
+  height: 50px;
+  left: 24px;
+  top: 643px;
+
+  border: 1px solid #9d9d9d;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.signgoogle {
+  position: absolute;
+  width: 135px;
+  height: 19px;
+  left: 155px;
+  top: 658px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #9d9d9d;
+}
+.logogoogle {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 131px;
+  top: 659px;
+
+  border-radius: 6px;
+}
+.alreadymember {
+  position: absolute;
+  width: 267px;
+  height: 26px;
+  left: 72px;
+  top: 710px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+
+  color: #343434;
+}
+.privacy {
+  position: absolute;
+  width: 311px;
+  height: 40px;
+  left: 51px;
+  top: 829px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #4b0082;
+}

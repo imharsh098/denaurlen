@@ -1,0 +1,380 @@
+.main {
+  position: relative;
+  width: 414px;
+  height: 896px;
+
+  background: #ffffff;
+}
+.gross_value {
+  position: absolute;
+  left: 69.57%;
+  right: 19.81%;
+  top: 6.58%;
+  bottom: 91.74%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  /* Heading */
+
+  color: #19012b;
+}
+.net_value {
+  position: absolute;
+  left: 22.22%;
+  right: 68.36%;
+  top: 86.72%;
+  bottom: 11.27%;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+
+  /* Heading */
+
+  color: #19012b;
+}
+.denaurlen {
+  position: absolute;
+  width: 116px;
+  height: 30px;
+  left: 12px;
+  top: 11px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: flex-end;
+  text-transform: capitalize;
+
+  color: #4b0082;
+}
+.logout_btn {
+  position: absolute;
+  width: 107px;
+  height: 30px;
+  left: 297px;
+  top: 11px;
+
+  background: #4b0082;
+  border-radius: 5px;
+}
+.logout {
+  position: absolute;
+  width: 68.79px;
+  height: 14.25px;
+  left: 323px;
+  top: 19px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.profilepic {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 12px;
+  top: 51px;
+
+  background: url("../../public/images/profile.png"), #c4c4c4;
+}
+.name {
+  position: absolute;
+  left: 16.91%;
+  right: 57.97%;
+  top: 6.47%;
+  bottom: 91.74%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Heading */
+
+  color: #19012b;
+}
+.date_time {
+  position: absolute;
+  left: 16.91%;
+  right: 52.66%;
+  top: 9.15%;
+  bottom: 89.4%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* subheading */
+
+  color: #968c9d;
+
+  opacity: 0.8;
+}
+.gross_coin {
+  position: absolute;
+  left: 64.73%;
+  right: 17.15%;
+  top: 8.82%;
+  bottom: 89.51%;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+  text-transform: capitalize;
+
+  /* subheading */
+
+  color: #968c9d;
+}
+.post {
+  position: absolute;
+  width: 414px;
+  height: 580px;
+  left: 0px;
+  top: 111px;
+
+  background: url(../../public/images/post.png), #c4c4c4;
+}
+.share {
+  position: absolute;
+  left: 22.71%;
+  right: 71.5%;
+  top: 78.91%;
+  bottom: 18.42%;
+
+  /* background: #343434; */
+}
+.comment {
+  position: absolute;
+  left: 12.08%;
+  right: 82.13%;
+  top: 78.91%;
+  bottom: 18.42%;
+
+  /* background: #343434; */
+}
+.like {
+  position: absolute;
+  left: 2.9%;
+  right: 92.75%;
+  top: 79.13%;
+  bottom: 18.11%;
+
+  /* background: #343434; */
+  /* border: 0.5px solid #343434; */
+}
+.lead {
+  position: absolute;
+  width: 126px;
+  height: 40px;
+  left: 272px;
+  top: 699px;
+
+  background: #4b0082;
+  border-radius: 5px;
+}
+.lead_100 {
+  position: absolute;
+  width: 81px;
+  height: 19px;
+  left: 282px;
+  top: 710px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.interested {
+  position: absolute;
+  left: 2.9%;
+  right: 63.77%;
+  top: 83.37%;
+  bottom: 14.84%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+
+  display: flex;
+  align-items: center;
+
+  /* Heading */
+
+  color: #19012b;
+}
+.bidder {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 15px;
+  top: 778px;
+
+  background: url(../../public/images/bidder.png), #c4c4c4;
+}
+.in_lead {
+  position: absolute;
+  left: 36.18%;
+  right: 50%;
+  top: 89.29%;
+  bottom: 8.48%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* subheading */
+
+  color: #968c9d;
+
+  opacity: 0.8;
+}
+.bid_coin {
+  position: absolute;
+  left: 17.15%;
+  right: 80.31%;
+  top: 87.89%;
+  bottom: 10.36%;
+
+  background: #ffbf00;
+  box-shadow: -1px 3px 4px rgba(0, 0, 0, 0.13);
+  transform: rotate(-90deg);
+}
+.bidder_name {
+  position: absolute;
+  left: 17.15%;
+  right: 64.27%;
+  top: 89.29%;
+  bottom: 8.48%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Heading */
+
+  color: #19012b;
+}
+.user {
+  position: absolute;
+  left: 3.62%;
+  right: 77.05%;
+  top: 93.42%;
+  bottom: 4.58%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  /* Heading */
+
+  color: #19012b;
+}
+.caption_1 {
+  position: absolute;
+  left: 24.4%;
+  right: 9.66%;
+  top: 93.42%;
+  bottom: 4.58%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  /* Heading */
+
+  color: #19012b;
+}
+.caption_2 {
+  position: absolute;
+  left: 3.86%;
+  right: 26.81%;
+  top: 96.32%;
+  bottom: 1.67%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  /* Heading */
+
+  color: #19012b;
+}

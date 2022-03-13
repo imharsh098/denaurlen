@@ -1,0 +1,409 @@
+.main {
+  position: relative;
+  width: 414px;
+  height: 896px;
+  background: #ffffff;
+}
+
+.right_side {
+  position: absolute;
+  width: 67px;
+  height: 11.34px;
+  left: 323px;
+  top: 19px;
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  background: none;
+  border: 0px;
+}
+.left_side {
+  position: absolute;
+  width: 28.43px;
+  height: 11.09px;
+  left: 24px;
+  top: 19px;
+}
+/* .time {
+    position: absolute;
+    width: 28.43px;
+    height: 11.09px;
+    left: 24px;
+    top: 19px;
+    background: #000000;
+  } */
+
+.back {
+  position: absolute;
+  width: 19px;
+  height: 15px;
+  left: 25px;
+  top: 75px;
+}
+.sign_up {
+  position: absolute;
+  width: 77px;
+  height: 30px;
+  left: 23px;
+  top: 113px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  display: flex;
+  align-items: flex-end;
+  text-transform: capitalize;
+
+  color: #4b0082;
+}
+
+.connect {
+  position: absolute;
+  width: 149px;
+  height: 23px;
+  left: 23px;
+  top: 148px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+
+  /* identical to box height */
+
+  color: #9d9d9d;
+}
+
+.rectangle_38 {
+  position: absolute;
+  width: 173px;
+  height: 50px;
+  left: 24px;
+  top: 220px;
+
+  border: 1px solid #4b0082;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.group_52 {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 38px;
+  top: 236px;
+}
+.content_1 {
+  position: absolute;
+  width: 90px;
+  height: 18px;
+  left: 66px;
+  top: 233px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #343434;
+}
+
+.rectangle_41 {
+  position: absolute;
+  width: 173px;
+  height: 50px;
+  left: 217px;
+  top: 220px;
+
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+.group_53 {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 231px;
+  top: 236px;
+}
+.content_2 {
+  position: absolute;
+  width: 90px;
+  height: 18px;
+  left: 259px;
+  top: 233px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #343434;
+}
+.email {
+  position: absolute;
+  width: 366px;
+  height: 50px;
+  left: 24px;
+  top: 292px;
+
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+.group_51 {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 38px;
+  top: 308px;
+}
+
+.username {
+  position: absolute;
+  width: 366px;
+  height: 50px;
+  left: 24px;
+  top: 364px;
+
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+.group_54 {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 38px;
+  top: 380px;
+}
+.password {
+  position: absolute;
+  width: 366px;
+  height: 50px;
+  left: 24px;
+  top: 436px;
+
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+
+.confirmpass {
+  position: absolute;
+  width: 366px;
+  height: 50px;
+  left: 24px;
+  top: 508px;
+
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+.usernamee {
+  position: absolute;
+  width: 200px;
+  height: 18px;
+  left: 66px;
+  top: 379px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #9d9d9d;
+}
+button {
+  background: none;
+  border: 0px;
+}
+.emaill {
+  position: absolute;
+  width: 200px;
+  height: 18px;
+  left: 66px;
+  top: 307px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #9d9d9d;
+}
+.confirmpasss {
+  position: absolute;
+  width: 200px;
+  height: 18px;
+  left: 66px;
+  top: 523px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #9d9d9d;
+}
+.passwordd {
+  position: absolute;
+  width: 200px;
+  height: 14px;
+  left: 66px;
+  top: 453px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #343434;
+}
+
+.stroke {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 22px;
+  top: 580px;
+
+  background: #9d9d9d;
+}
+
+.terms {
+  position: absolute;
+  width: 254px;
+  height: 18px;
+  left: 48px;
+  top: 582px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+
+  color: #343434;
+}
+.submit_signup {
+  position: absolute;
+  width: 366px;
+  height: 50px;
+  left: 24px;
+  top: 643px;
+
+  background: #4b0082;
+  border-radius: 5px;
+}
+.sign {
+  position: absolute;
+  width: 49px;
+  height: 18px;
+  left: 164px;
+  top: 659px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 18px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.alreadymember {
+  position: absolute;
+  width: 267px;
+  height: 26px;
+  left: 72px;
+  top: 710px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+
+  color: #343434;
+}
+.privacy {
+  position: absolute;
+  width: 311px;
+  height: 40px;
+  left: 51px;
+  top: 829px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #4b0082;
+}
+
+.hide {
+  position: absolute;
+  left: 86.96%;
+  right: 9.18%;
+  top: 50.67%;
+  bottom: 47.81%;
+}
+.rectangle {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 38px;
+  top: 452px;
+
+  background: #4b0082;
+  border-radius: 2px;
+}
+.vector {
+  position: absolute;
+  left: 28.39%;
+  right: 101.92%;
+  top: 0.89%;
+  bottom: 48.1%;
+  background: #ffffff;
+}
+.rectangle_2 {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 38px;
+  top: 523px;
+
+  background: #4b0082;
+  border-radius: 2px;
+}
+.vector_2 {
+  position: absolute;
+  left: 28.39%;
+  right: 101.92%;
+  top: 1.82%;
+  bottom: 40.18%;
+  background: #ffffff;
+}
