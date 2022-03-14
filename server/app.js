@@ -9,6 +9,7 @@ import "./connect.js";
 import userRouter from "./controllers/user/index.js";
 import coinRouter from "./controllers/coins/index.js";
 app.use(express.json());
+app.use(express.static("build"));
 
 app.use("/api/users", userRouter);
 app.use("/api/coins", coinRouter);
@@ -16,4 +17,3 @@ app.use("/api/coins", coinRouter);
 app.listen(port, (req, res) => {
   console.log("Server started at port ", port);
 });
-// adjbk

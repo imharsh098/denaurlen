@@ -47,7 +47,11 @@ const Home = () => {
       <div className="name">{userInfo.username}</div>
       <div className="date_time">6 June 2021, 12:10 pm</div>
       <div className="gross_coin">Gross Coins</div>
+      <div className="bid_gross_coin"></div>
       <div className="gross_value">{coinData ? coinData.grossCoins : 0}</div>
+      <img src="./images/arrow.png" className="arrow1" />
+      <img src="./images/arrow.png" className="arrow2" />
+      <img src="./images/dot.png" class="dot" />
       <div className="post">
         <img src="./images/post.png" alt="" />
       </div>

@@ -5,6 +5,27 @@
 
   background: #ffffff;
 }
+.arrow1 {
+  position: absolute;
+  left: 84.78%;
+  right: 10.63%;
+  top: 7.81%;
+  bottom: 90.96%;
+}
+.arrow2 {
+  position: absolute;
+  left: 31.4%;
+  right: 64.01%;
+  top: 87.05%;
+  bottom: 11.72%;
+}
+.dot {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 383px;
+  top: 66px;
+}
 .gross_value {
   position: absolute;
   left: 69.57%;
@@ -266,8 +287,7 @@
 }
 .in_lead {
   position: absolute;
-  left: 36.18%;
-  right: 50%;
+  left: 55.18%;
   top: 89.29%;
   bottom: 8.48%;
 
@@ -288,6 +308,18 @@
 
   opacity: 0.8;
 }
+
+.bid_gross_coin {
+  position: absolute;
+  left: 63.77%;
+  right: 33.69%;
+  top: 6.65%;
+  bottom: 90.61%;
+  background: #ffbf00;
+  box-shadow: -1px 3px 4px rgb(0 0 0 / 13%);
+  transform: rotate(-90deg);
+  border-radius: 50%;
+}
 .bid_coin {
   position: absolute;
   left: 17.15%;
@@ -298,6 +330,7 @@
   background: #ffbf00;
   box-shadow: -1px 3px 4px rgba(0, 0, 0, 0.13);
   transform: rotate(-90deg);
+  border-radius: 50%;
 }
 .bidder_name {
   position: absolute;
